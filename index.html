@@ -14,16 +14,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" style="color: white" href="mainPage.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" style="color: white" href="https://srmiki.github.io/index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                       <a class="nav-link" style="color: white" href="aboutMe.html">About me</a>
+                       <a class="nav-link" style="color: white" href="https://srmiki.github.io/aboutMe.html">About me</a>
                     </li>
                     <li class="nav-item">
-                       <a class="nav-link" style="color: white" href="myProjects.html">My projects</a>
+                       <a class="nav-link" style="color: white" href="https://srmiki.github.io/myProjects.html">My projects</a>
                     </li>
                     <li class="nav-item" style="color: white">
-                       <a class="nav-link" style="color: white" href="myClassNotes.html">My Class notes</a>
+                       <a class="nav-link" style="color: white" href="https://srmiki.github.io/myClassNotes.html">My Class notes</a>
                     </li>
                 </ul>
             </div>
@@ -39,7 +39,7 @@
             .footer {
                 font-family: sans-serif;
                 color: white;
-                background-color: indianred;
+                background-color: purple;
                 width: 100%;
                 bottom: 0;
                 position:fixed;
