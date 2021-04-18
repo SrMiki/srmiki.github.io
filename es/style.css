@@ -1,0 +1,17 @@
+.selectLanguage {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+.footer {
+    font-family: sans-serif;
+    color: white;
+    background-color: purple;
+    width: 100%;
+    bottom: 0;
+    position:fixed;
+    height: 25px;    
+}
+        
