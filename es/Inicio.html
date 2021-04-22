@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="page" lang="en">
+<html class="page" lang="es">
 
 <head>
     <meta name="viewport" http-equiv="Content-Type"
@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -22,42 +22,58 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: purple; color: white">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lightgray; color: white">
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" style="color: white" href="https://srmiki.github.io/index.html">Home <span
+                    <a class="nav-link" style="color: white" href="https://srmiki.github.io/es/Inicio.html">Inicio <span
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: white" href="https://srmiki.github.io/aboutMe.html">About me</a>
+                    <a class="nav-link" style="color: white" href="https://srmiki.github.io/es/sobreMi.html">Sobre
+                        mi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: white" href="https://srmiki.github.io/myProjects.html">My
-                        projects</a>
+                    <a class="nav-link" style="color: white" href="https://srmiki.github.io/es/misProyectos.html">Mis
+                        proyectos</a>
                 </li>
                 <li class="nav-item" style="color: white">
-                    <a class="nav-link" style="color: white" href="https://srmiki.github.io/myClassNotes.html">My Class
-                        notes</a>
+                    <a class="nav-link" style="color: white" href="https://srmiki.github.io/es/misApuntes.html">Mis
+                        apuntes</a>
                 </li>
             </ul>
         </div>
-        <div>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <select name="language" class="form-select">
-                        <option onclick="window.location.href = 'https://srmiki.github.io/index.html'">English</option>
-                        <option onclick="window.location.href = 'https://srmiki.github.io/es/Inicio.html'">Spanish
-                        </option>
-                    </select>
-                </li>
+        <div class="dropdown">
+            <button class="btn btn-ligth" type="button" data-toggle="dropdown">Idioma
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="https://srmiki.github.io/es/Inicio.html">Español</a></li>
+                <li><a href="https://srmiki.github.io/index.html">Inglés</a></li>
             </ul>
         </div>
-    </nav>
 
-    <h1>Welcome!</h1>
-    <p>Hi! I m Miguel (aka SrMiki) </p>
+    <h1>Bienvenido</h1>
+    <p>¡Hola! Soy Miguel Ángel Berciano Rodríguez (aka. SrMiki) </p>
 
+    <p> Estudiante del Grado en Ingeniería Informática en la Escuela de
+        Ingeniería Informática de la Universidad de Las Palmas de Gran Canaria</p>
+
+
+
+
+
+
+    <style>
+        .footer {
+            font-family: sans-serif;
+            color: white;
+            background-color: lightgray;
+            width: 100%;
+            bottom: 0;
+            position: fixed;
+            height: 25px;
+        }
+    </style>
     <footer class="footer">
         <div class="container">
             <p class="float-right">
